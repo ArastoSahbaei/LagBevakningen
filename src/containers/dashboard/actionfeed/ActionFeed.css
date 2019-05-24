@@ -1,0 +1,15 @@
+.render {
+    width: 500px;
+    height: 800px;
+}
+
+.actionComponent {
+    background-color: #F0E9E9;
+}
+
+.extraErrands {
+    display: block;
+    margin-left: 20px;
+    color: #1D1D1B;
+    font-size: 14px;
+}

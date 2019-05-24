@@ -1,0 +1,33 @@
+.changePasswordButton{
+    cursor: pointer;
+    color: blue;
+}
+span{
+}
+.changePasswordText{
+    margin: auto;
+    padding: 15px;
+
+}
+
+.popup-content{
+    width: 400px !important;
+}
+
+.userInfo{
+    display: inline;
+}
+
+.editButton{
+    color: blue;
+    cursor: pointer;
+}
+
+.userInfo{
+    line-height: 30px;
+}
+
+.errors{
+    color: red;
+    line-height: 30px;
+}

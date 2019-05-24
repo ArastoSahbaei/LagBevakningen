@@ -1,0 +1,109 @@
+.loginFormWrapper {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    background: url("../../services/images/blueBackground.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.signIn {
+    grid-column: 3/5;
+    color: #009cde;
+}
+
+.languageDropdown {
+    grid-column: 9/10;
+    align-self: start;
+    justify-self: center;
+    margin: 16px;
+}
+
+img.loginGlobe {
+    margin-right: 5px;
+}
+
+span.globeLanguage {
+    color: #9FD4F3;
+}
+
+i.caret.down.icon {
+    color: #9FD4F3;
+}
+
+.loginButton {
+    background-color: #009cde;
+    border-radius: 15px !important;
+    width: 200px;
+    margin-left: 20px !important;
+}
+
+.forgotPassword {
+    margin: 50px;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+.forgotPassword:hover {
+   color: white !important;
+   opacity: 1;
+}
+
+.emailForm {
+    grid-column: 5/7;
+    margin-left: 50px;
+}
+
+.welcomeTitle {
+    grid-column: 5/5;
+    grid-row: 2/2;
+    align-self: end;
+    color: white;
+    font-size: 110px;
+}
+
+.subWelcomeTitle {
+    grid-column: 5/6;
+    grid-row: 3/3;
+    align-self: start;
+    justify-self: center;
+    color: white;
+}
+
+.rambollLogin {
+    grid-column: 9/9;
+    grid-row: 5/5;
+    justify-self: center;
+    align-self: center;
+    width: 170px;
+}
+
+.forgotPassword {
+    color: white;
+}
+
+.emailInput {
+    border-radius: 25px !important;
+    width: 440px !important;
+}
+
+.passwordInput {
+    border-radius: 25px !important;
+    width: 440px !important;
+}
+
+.fa-envelope {
+    color: white;
+}
+
+.fa-fingerprint {
+    color: white;
+}
+
+.passwordText, .emailText {
+    color: white;
+}
